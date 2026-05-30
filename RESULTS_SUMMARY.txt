@@ -1,0 +1,18 @@
+MCP OAuth Authorization Server Verification Results
+====================================================
+
+Total URLs Verified: 3,322
+Successful (200 OK): 690
+Success Rate: 20.8%
+
+Verification Date: May 30, 2026
+Verification Method: HTTP GET to https://mcp.<domain>/.well-known/oauth-authorization-server
+
+Files Generated:
+- verified_urls.txt: Plain text list of verified URLs (one per line)
+- verified_urls.csv: CSV format with domain and status
+- verified_urls.json: JSON format with detailed information
+- RESULTS_SUMMARY.txt: This summary file
+
+The verified URLs represent domains where the OAuth authorization server endpoint
+is accessible and returns a 200 OK status code.
